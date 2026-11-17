@@ -1,0 +1,48 @@
+{
+  "mode": "quick",
+  "config": {
+    "seed": 42,
+    "latent_dim": 10,
+    "n_clusters": 10,
+    "batch_size": 128,
+    "pretrain_lr": 0.001,
+    "lr": 0.0002,
+    "likelihood": "gaussian",
+    "obs_var": 0.1,
+    "num_workers": 0,
+    "train_size": 5000,
+    "test_size": 2000,
+    "pretrain_epochs": 5,
+    "epochs": 10
+  },
+  "environment": {
+    "python": "3.12.5 (v3.12.5:ff3bc82f7c9, Aug  7 2024, 05:32:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "torch": "2.14.0",
+    "torchvision": "0.29.0",
+    "numpy": "2.3.4",
+    "device": "mps"
+  },
+  "ae_gmm_test": {
+    "ACC": 0.2275,
+    "NMI": 0.08352912048129373,
+    "ARI": 0.04449892182271799,
+    "occupied_clusters": 10
+  },
+  "vade_train": {
+    "ACC": 0.2234,
+    "NMI": 0.0745392681439628,
+    "ARI": 0.039836982460865554,
+    "occupied_clusters": 10
+  },
+  "vade_test": {
+    "ACC": 0.2255,
+    "NMI": 0.08184194514639635,
+    "ARI": 0.04206523707224736,
+    "occupied_clusters": 10
+  },
+  "gmm_converged": true,
+  "prediction_rule": "argmax p(c|z=encoder_mean)",
+  "model_selection": "last_epoch",
+  "status": "completed_quick_experiment"
+}

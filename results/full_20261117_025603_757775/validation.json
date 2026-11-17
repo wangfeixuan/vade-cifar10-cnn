@@ -1,0 +1,10 @@
+{
+  "mode": "full",
+  "pretrain_epochs_completed": 50,
+  "vade_epochs_completed": 300,
+  "all_notebook_code_cells_executed": true,
+  "notebook_error_outputs": 0,
+  "checkpoint_epoch": 300,
+  "checkpoint_parameters_all_finite": true,
+  "embedded_png_outputs": 7
+}

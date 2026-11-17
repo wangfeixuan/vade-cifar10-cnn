@@ -1,0 +1,9 @@
+data/
+results/*/*.pt
+results/*/test_predictions.npz
+results/*/split_indices.npz
+Jiang et al*.pdf
+full_training.log
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store

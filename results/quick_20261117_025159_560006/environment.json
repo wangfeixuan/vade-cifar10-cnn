@@ -1,0 +1,8 @@
+{
+  "python": "3.12.5 (v3.12.5:ff3bc82f7c9, Aug  7 2024, 05:32:06) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "torch": "2.14.0",
+  "torchvision": "0.29.0",
+  "numpy": "2.3.4",
+  "device": "mps"
+}

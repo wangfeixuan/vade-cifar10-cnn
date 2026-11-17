@@ -1,0 +1,10 @@
+{
+  "mathematical_tests_passed": 4,
+  "mps_forward_backward_passed": true,
+  "notebook_code_cells_executed": 11,
+  "notebook_error_outputs": 0,
+  "embedded_png_outputs": 7,
+  "dataset_archive_md5_verified": "c58f30108f718f92721af3b95e74349a",
+  "executed_mode": "quick",
+  "full_training_executed": false
+}

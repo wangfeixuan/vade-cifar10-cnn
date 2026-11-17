@@ -1,0 +1,16 @@
+{
+  "mode": "full",
+  "seed": 42,
+  "latent_dim": 10,
+  "n_clusters": 10,
+  "batch_size": 128,
+  "pretrain_lr": 0.001,
+  "lr": 0.0002,
+  "likelihood": "gaussian",
+  "obs_var": 0.1,
+  "num_workers": 0,
+  "train_size": 50000,
+  "test_size": 10000,
+  "pretrain_epochs": 50,
+  "epochs": 300
+}
