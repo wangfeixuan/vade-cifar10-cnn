@@ -50,7 +50,8 @@ AE 像素 MSE 从 0.03201 降至 0.01837；VaDE 最终总损失为 -421.2683。�
 ## 运行
 
 ```bash
-cd /Users/wangfeixuan/Desktop/科研/VADE
+git clone https://github.com/wangfeixuan/vade-cifar10-cnn.git
+cd vade-cifar10-cnn
 python3 -m pip install -r requirements.txt
 ```
 
